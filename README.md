@@ -23,4 +23,5 @@ CLI Programs
 
 ---
 
+Readings
 * [Write code that is easy to delete, not easy to extend.](readings/write_code_that_is_easy_to_delete.md)
