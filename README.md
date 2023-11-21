@@ -22,3 +22,7 @@ Python Libraries
 
 CLI Programs
 * [s5cmd](https://github.com/peak/s5cmd)
+
+### Readings I Like
+
+* [Write code that is easy to delete, not easy to extend.](readings/write_code_that_is_easy_to_delete.md)
