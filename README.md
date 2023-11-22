@@ -6,13 +6,13 @@
 [![Xilis](https://img.shields.io/badge/%20-Xilis-green?style=for-the-badge&logo=ghost&logoColor=rgb(145%2C%20202%2C%20224)&labelColor=rgb(47%2C%2075%2C%20143)&color=rgb(232%2C%20153%2C%2062))](https://xilis.com/)
 
 ---
-
-### applications
+### Tools I Enjoy
+#### applications
 * [warp](https://github.com/warpdotdev/Warp)
 * [vscode](https://github.com/microsoft/vscode)
 * [tabnine](https://github.com/codota/TabNine)
 
-### libraries
+#### libraries 
 * [poetry](https://github.com/python-poetry/poetry)
 * [ruff](https://github.com/astral-sh/ruff)
 * [pyright](https://github.com/microsoft/pyright)
@@ -20,10 +20,10 @@
 * [typer](https://github.com/tiangolo/typer)
 * [awswrangler](https://github.com/aws/aws-sdk-pandas)
 
-### programs
+#### programs
 * [s5cmd](https://github.com/peak/s5cmd)
 
 ---
 
-### readings
+### Readings I Enjoy
 * [Write code that is easy to delete, not easy to extend.](readings/write_code_that_is_easy_to_delete.md)
