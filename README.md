@@ -26,4 +26,6 @@
 ---
 
 ### Readings I Enjoy
-* [Write code that is easy to delete, not easy to extend.](readings/write_code_that_is_easy_to_delete.md)
+* [Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
+* [Write libraries instead of services, where possible](https://catern.com/services.html)
+* [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
