@@ -10,7 +10,8 @@
 #### applications
 * [warp](https://github.com/warpdotdev/Warp)
 * [vscode](https://github.com/microsoft/vscode)
-* [tabnine](https://github.com/codota/TabNine)
+* [rectangle](https://rectangleapp.com/pro)
+* [better touch tool](https://folivora.ai/)
 
 #### libraries 
 * [poetry](https://github.com/python-poetry/poetry)
@@ -21,6 +22,7 @@
 * [awswrangler](https://github.com/aws/aws-sdk-pandas)
 
 #### programs
+* [tabnine](https://github.com/codota/TabNine)
 * [s5cmd](https://github.com/peak/s5cmd)
 
 ---
