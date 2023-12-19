@@ -10,7 +10,6 @@
 #### applications
 * [warp](https://github.com/warpdotdev/Warp)
 * [vscode](https://github.com/microsoft/vscode)
-* [rectangle](https://rectangleapp.com/pro)
 * [better touch tool](https://folivora.ai/)
 
 #### libraries 
