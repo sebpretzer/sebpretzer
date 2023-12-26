@@ -1,0 +1,29 @@
+baseURL = "https://pretzer.io"
+languageCode = "en-us"
+title = "Seb Pretzer"
+
+theme = "PaperMod"
+[params]
+defaultTheme = "dark"
+disableThemeToggle = "true"
+
+[params.profileMode]
+enabled = "true"
+title = "Seb Pretzer"
+subtitle = "Exploring the magic of computers"
+imageUrl = "https://avatars.githubusercontent.com/u/24555985?v=4" # TODO: IPFS link
+imageTitle = "Seb's Solana battle scar"
+imageWidth = 300
+imageHeight = 300
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/sebpretzer"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pretzer/"
+
+[[params.socialIcons]]
+name = "email"
+url = "hi@pretzer.io"
