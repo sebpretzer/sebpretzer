@@ -1,5 +1,5 @@
 # https://gohugo.io/hosting-and-deployment/hosting-on-github/
-name: Deploy Hugo site to Pages
+name: Deploy pretzer.io
 
 on:
   push:
