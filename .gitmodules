@@ -1,0 +1,3 @@
+[submodule "zola/themes/hermit_zola"]
+	path = zola/themes/hermit_zola
+	url = git@github.com:VersBinarii/hermit_zola.git
