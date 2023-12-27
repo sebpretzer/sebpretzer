@@ -10,7 +10,7 @@ on:
 
 jobs:
   github-pages:
-    uses: .github/workflows/templates/deploy_to_github_pages.yaml
+    uses: ./.github/workflows/templates/deploy_to_github_pages.yaml
     with:
       local_path: 'pretzer.io/www'
 
