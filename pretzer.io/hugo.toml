@@ -18,6 +18,10 @@ imageWidth = 300
 imageHeight = 300
 
 [[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/sebpretzer"
+
+[[params.socialIcons]]
 name = "github"
 url = "https://github.com/sebpretzer"
 
