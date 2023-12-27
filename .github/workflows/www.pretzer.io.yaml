@@ -8,24 +8,24 @@ on:
       - 'pretzer.io/www/**'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   github-pages:
     uses: ./.github/workflows/_deploy_to_github_pages.yaml
     with:
       local_path: 'pretzer.io/www'
-
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
-
-# concurrency:
-#   group: "pages"
-#   cancel-in-progress: true
-
-# defaults:
-#   run:
-#     shell: bash
 
 # jobs:
 #   build:
