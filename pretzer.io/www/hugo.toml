@@ -19,7 +19,7 @@ imageHeight = 300
 
 [[params.profileMode.buttons]]
 name = "Resume"
-url = "/resume"
+url = "https://resume.pretzer.io"
 
 [[params.socialIcons]]
 name = "twitter"

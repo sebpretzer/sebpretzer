@@ -1,0 +1,26 @@
+baseURL = "https://resume.pretzer.io"
+languageCode = "en-us"
+title = "Seb Pretzer"
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+pages = 2
+enableMetaTags = true
+swapColumns = true
+
+colorLight = "#FFFFFF"
+colorDark = "#21252B"
+colorPageBackground = "#21252B"
+colorPrimary = "#61AFEF"
+colorSecondary = "#323842"
+colorIconPrimary = "#323842"
+colorIconBackground = "#D4D8DF"
+colorRightColumnBackground = "#D4D8DF"
+colorRightColumnHeadingText = "#323842"
+colorRightColumnBodyText = "#323842"
+colorRightColumnIconPrimary = "#F6F7F9"
+colorRightColumnIconBackground = "#61AFEF"
+
+

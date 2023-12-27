@@ -1,0 +1,66 @@
+BasicInfo:
+  FirstName: Seb
+  LastName: Pretzer
+  Photo: https://avatars.githubusercontent.com/u/24555985?v=4
+  Contacts:
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/pretzer/" target="_blank">in/pretzer</a>
+    - Icon: fab fa-github
+      Info: <a class="contact__link" href="https://github.com/sebpretzer" target="_blank">sebpretzer</a>
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://pretzer.io" target="_blank">pretzer.io</a>
+
+Profile: Machine Learning Engineer turned Data Engineer. Used NLP techniques to extract clinical data from medical records, and CV techniques to guide diagnoses of H&E whole slide images. Now building data pipelines to support modeling efforts of confocal microscopy images and other modalities.
+
+Experience:
+  - Employer: Xilis
+    Place: Durham, NC
+    Positions:
+      - Title: Senior Data Engineer
+        Date: Aug 2022 - Present
+        # Details:
+        #   - Test
+        # Badges: ['Test']
+  - Employer: Tempus Labs
+    Place: Chicago, IL
+    Positions:
+      - Title: Senior Machine Learning Scientist, Imaging
+        Date: Oct 2021 - Aug 2022
+      - Title: Senior Machine Learning Scientist, NLP
+        Date: Mar 2021 - Oct 2021
+      - Title: Machine Learning Scientist, NLP
+        Date: Mar 2019 - Mar 2021
+      - Title: Data Science Intern, NLP
+        Date: May 2018 - Jun 2019
+
+  - Employer: Northwestern University
+    Place: Evanston, IL
+    Positions:
+      - Title: Vice President, Research and Development
+        Date: Sep 2017 - Jun 2018
+      - Title: WebSAIL Research Assistant
+        Date: Jan 2018 - Apr 2018
+      - Title: Teaching Assistant
+        Date: Mar 2017 - Jun 2017
+
+
+Education:
+  - Course: BA, Computer Science
+    Place: Northwestern University
+    Date: Sep 2015 - Jun 2018
+    Details: Specialised in machine learning and natural language processing
+
+# Skills:
+#   - Family: Test
+#     Items:
+#       - Test1
+#       - Test2
+#       - Test3
+
+Interests:
+  - Basketball
+  - Cooking
+  - Skiing
+  - Dogs
+  - House Music
+  - Web3
