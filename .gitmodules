@@ -1,5 +1,5 @@
 [submodule "pretzer.io/themes/PaperMod"]
-	path = pretzer.io/themes/PaperMod
+	path = pretzer.io/www/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "pretzer.io/themes/hugo-devresume-theme"]
 	path = pretzer.io/themes/hugo-devresume-theme

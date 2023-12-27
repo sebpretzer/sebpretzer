@@ -1,22 +1,18 @@
 # https://gohugo.io/hosting-and-deployment/hosting-on-github/
-name: Deploy pretzer.io
+name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'pretzer.io/**'
-  workflow_dispatch:
+  workflow_call:
+    inputs:
+      local_path:
+        description: 'Path to the directory containing the static site'
+        required: true
+        default: 'pretzer.io/www'
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 defaults:
   run:
@@ -53,11 +49,11 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            -s pretzer.io
+            -s ${{ inputs.local_path }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./pretzer.io/public
+          path: ./${{ inputs.local_path }}/public
 
   deploy:
     environment:
