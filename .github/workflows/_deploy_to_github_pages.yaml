@@ -9,6 +9,11 @@ on:
         type: string
         required: true
         default: 'pretzer.io/www'
+      postfix:
+        description: 'Postfix for the GitHub Pages URL'
+        type: string
+        required: true
+        default: ''
 
 permissions:
   contents: read
@@ -59,7 +64,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}/${{ inputs.postfix }}
     runs-on: ubuntu-latest
     needs: build
     steps:

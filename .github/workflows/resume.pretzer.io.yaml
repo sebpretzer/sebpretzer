@@ -22,3 +22,4 @@ jobs:
     uses: ./.github/workflows/_deploy_to_github_pages.yaml
     with:
       local_path: 'pretzer.io/resume'
+      postfix: 'resume'
