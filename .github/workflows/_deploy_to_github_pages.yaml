@@ -6,6 +6,7 @@ on:
     inputs:
       local_path:
         description: 'Path to the directory containing the static site'
+        type: string
         required: true
         default: 'pretzer.io/www'
 
