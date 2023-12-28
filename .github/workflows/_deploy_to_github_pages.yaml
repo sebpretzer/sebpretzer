@@ -54,6 +54,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/${{ inputs.postfix }}" \
             -s ${{ inputs.local_path }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
