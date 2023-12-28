@@ -17,6 +17,10 @@ imageTitle = "Seb's Solana battle scar"
 imageWidth = 300
 imageHeight = 300
 
+[[params.profileMode.buttons]]
+name = "Resume"
+url = "https://resume.pretzer.io"
+
 [[params.socialIcons]]
 name = "twitter"
 url = "https://twitter.com/sebpretzer"

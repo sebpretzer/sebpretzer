@@ -1,6 +1,9 @@
 [submodule "pretzer.io/themes/PaperMod"]
-	path = pretzer.io/themes/PaperMod
+	path = pretzer.io/www/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
 [submodule "pretzer.io/themes/hugo-devresume-theme"]
 	path = pretzer.io/themes/hugo-devresume-theme
 	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
+[submodule "pretzer.io/resume/themes/almeida-cv"]
+	path = pretzer.io/resume/themes/almeida-cv
+	url = git@github.com:ineesalmeida/almeida-cv.git

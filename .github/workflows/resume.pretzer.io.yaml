@@ -1,0 +1,28 @@
+name: resume.pretzer.io
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pretzer.io/resume/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  github-pages:
+    uses: ./.github/workflows/_deploy_to_github_pages.yaml
+    with:
+      local_path: 'pretzer.io/resume'
