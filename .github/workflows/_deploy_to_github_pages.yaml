@@ -12,7 +12,7 @@ on:
       postfix:
         description: 'Postfix for the GitHub Pages URL'
         type: string
-        required: true
+        required: false
         default: ''
 
 permissions:
