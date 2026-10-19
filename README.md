@@ -1,1 +1,1 @@
-👋 Hi, I'm Seb Pretzer. I am a Machine Learning Engineer turned Data Engineer, primarily in the biotech space. Check me out at [pretzer.io](https://www.pretzer.io/).
+👋 Hi, I'm Seb Pretzer. I lead an engineering team that turns patient records into structured clinical data with LLMs. Check me out at [pretzer.io](https://www.pretzer.io/).
